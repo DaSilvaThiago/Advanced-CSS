@@ -1,0 +1,12 @@
+.txt_small{
+    font-family: var(--font_noto_sans);
+    font-size: var(--txt_small);
+    font-weight: 300;
+    color: black;
+}
+
+.main_title{
+    font-family: var(--font_noto_sans);
+    font-size: var(--txt_large);
+    font-weight: 300;
+}

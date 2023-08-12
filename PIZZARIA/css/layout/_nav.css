@@ -1,0 +1,30 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center; 
+}
+
+ul, li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.brand{
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 600px){
+    .list_menu{
+        display: none;
+    }
+    .brand{
+        height: 57px;
+        width: 57px;
+    }
+}
