@@ -1,0 +1,38 @@
+necessary folders to init SMACSS
+
+FOLDERS AND RULES.
+
+BASE
+{
+    base rules is default rules 
+    working with
+    - element selector
+    - attribute element
+    - pseudo-class
+    - most advanced selectors 
+}
+
+LAYOUT
+{
+    it's about the layout of site whatever footer, header... is inside the layout design css
+    break the page to bigger pieces/most includes.
+}
+
+MODULE
+{
+    modules = component
+    it's a component where almost ever is found in layouts 
+
+    avoid property as position, dimensions, margin... because this responsibility is from layout that define the correct dimensions where the component will been.
+}
+
+STATE
+{
+    usually is an dependency JS code
+}
+
+THEME
+{
+ theme rules is to overwrite other rules from other SMACSS categories -- base, layout, module or state.
+ ex: dark theme, ester egg...
+}
