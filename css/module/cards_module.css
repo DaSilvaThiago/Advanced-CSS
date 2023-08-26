@@ -41,3 +41,51 @@
         font-size: 20pt;
     }
 }
+
+@media only screen and (max-width: 850px){
+    .txt_medium{
+        text-align: center;
+        font-size: 30pt;
+    }    
+    .txt_small_price{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .txt_medium{
+        text-align: center;
+        font-size: 30pt;
+    }    
+    .txt_small_price{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .txt_medium{
+        text-align: center;
+        font-size: 30pt;
+    }    
+    .txt_small_price{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .txt_medium{
+        text-align: center;
+        font-size: 17pt;
+    }    
+    .txt_small_price{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 14pt;
+    }
+}
